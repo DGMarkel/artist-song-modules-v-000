@@ -6,7 +6,7 @@ attr_accessor :name, :artists
   end
 
   def reset_all
-    artists.clear
+    self.all.clear
   end
 
 end
