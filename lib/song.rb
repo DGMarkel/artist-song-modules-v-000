@@ -24,9 +24,11 @@ class Song
 #    @@songs.clear
 #  end
 
+=begin
   def to_param
     name.downcase.gsub(' ', '-')
   end
+=end
 
 #  def self.count
 #    self.all.count
